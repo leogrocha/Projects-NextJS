@@ -1,22 +1,22 @@
 Projects in NextJS
 
 ## Instalation
-npx create-next-app projects-nextjs
-cd projects-nextjs
-npm run dev
+npx create-next-app projects-nextjs <br />
+cd projects-nextjs <br />
+npm run dev <br />
 
 ## Add TypeScript
-create file tsconfig.json
-npm install --save-dev typescript @types/react
-npm run dev
+create file tsconfig.json <br />
+npm install --save-dev typescript @types/react <br />
+npm run dev <br />
 
 ## Tecnologies
-Language Programming  => TypeScript
-Framework CSS => Tailwind CSS (https://tailwindcss.com/)
+Language Programming  => TypeScript <br />
+Framework CSS => Tailwind CSS (https://tailwindcss.com/) <br />
 
 ## Acess to Aplications
-localhost:3000/"name file"
-example: localhost:3000/count
+localhost:3000/"name file" <br />
+example: localhost:3000/count <br />
 
 ## List with the project and its description
--Count => Aplication for value count
+-Count => Aplication for value count <br />
