@@ -3,6 +3,8 @@ import Title from "../components/globals/Title";
 import Image from 'next/image';
 import ImageCount from '../public/count.png';
 import ImageChess from '../public/chess.png';
+import ImageRandom from '../public/random.png';
+import ImageSumTwoNumbers from '../public/sumTwoNumbers.png';
 import Button from "../components/globals/Button";
 
 const Home = () => {
@@ -43,6 +45,42 @@ const Home = () => {
                 />
               }
               description="Chess board"
+            />
+          </Button>
+        </div>
+
+        <div className="ml-3">
+          <Button
+          onClick={() => window.open('https://projects-next-js.vercel.app/random')}
+          >
+            <Card
+              image={
+                <Image
+                  src={ImageRandom}
+                  alt="Random"
+                  width={300}
+                  height={300}
+                />
+              }
+              description="Number random between value minimum and maximum"
+            />
+          </Button>
+        </div>
+
+        <div className="ml-3">
+          <Button
+          onClick={() => window.open('https://projects-next-js.vercel.app/sumTwoNumbers')}
+          >
+            <Card
+              image={
+                <Image
+                  src={ImageSumTwoNumbers}
+                  alt="Sum Two Numbers"
+                  width={300}
+                  height={300}
+                />
+              }
+              description="Sum Two Numbers"
             />
           </Button>
         </div>
