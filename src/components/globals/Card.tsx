@@ -6,13 +6,12 @@ import Button from './Button';
 interface CardProps {
     image: any,
     description: string,
-    link: any,
 }
 
 const Card = (props: CardProps) => {
     return(
         <div className="flex justify-center items-center flex-col">
-            <div className="border-2 border-black rounded-md ">
+            <div className="border-2 border-black rounded-md hover:border-orange-400">
                 <div className="border-2 w-32 h-32">
                     {props.image}
                 </div>
@@ -25,9 +24,6 @@ const Card = (props: CardProps) => {
                 </div>
             </div>
 
-            <div className='flex justify-center items-center'>
-                    {props.link}
-            </div>
         </div>
     )
 }
