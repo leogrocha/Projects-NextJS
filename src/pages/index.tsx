@@ -23,7 +23,7 @@ const Home = () => {
           description="Application to value count"
           link={
             <Button
-              className="text-sky-500"
+              className="text-black"
               onClick={() => window.open('https://projects-next-js.vercel.app/count')}
             >
               Acessar Link
@@ -44,7 +44,7 @@ const Home = () => {
             description="Application chess board"
             link={
               <Button
-                className="text-sky-500"
+                className="text-black"
                 onClick={() => window.open('https://projects-next-js.vercel.app/chess')}
               >
                 Acessar Link
