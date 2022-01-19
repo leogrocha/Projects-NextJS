@@ -23,7 +23,7 @@ const Home = () => {
           link={
             <Button
             className="text-sky-600"
-            onClick={() => window.open('http://localhost:3000/count')}
+            onClick={() => window.open('https://projects-next-js-7x9lj9mqq-leogrocha.vercel.app/count')}
             >
               Acessar Link
             </Button>
