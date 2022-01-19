@@ -22,8 +22,8 @@ const Home = () => {
           description="Application to value count"
           link={
             <Button
-            className="text-sky-600"
-            onClick={() => window.open('https://projects-next-js-7x9lj9mqq-leogrocha.vercel.app/count')}
+            className="text-sky-500"
+            onClick={() => window.open('https://projects-next-js.vercel.app/count')}
             >
               Acessar Link
             </Button>
