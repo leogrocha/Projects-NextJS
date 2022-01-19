@@ -23,13 +23,13 @@ const Main = () => {
 
                 <div className="flex mt-5">
                     <Button
-                    className="bg-red-400"
+                    className="bg-red-400 text-white text-2xl"
                     onClick={dec}
                     >-</Button>
                     
                     <div className="ml-5">
                     <Button
-                    className="bg-green-400"
+                    className="bg-green-400 text-white text-2xl"
                     onClick={inc}
                     >+</Button>
                     </div>
