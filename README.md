@@ -16,6 +16,7 @@ npm run dev <br />
 ## Tecnologies
 Language Programming  => TypeScript <br />
 Framework CSS => Tailwind CSS (https://tailwindcss.com/) <br />
+Accommodation => Vercel <br />
 
 ## Acess to Aplications
 localhost:3000/"name file" <br />
