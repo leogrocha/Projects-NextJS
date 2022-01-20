@@ -22,7 +22,5 @@ Accommodation => Vercel <br />
 localhost:3000/"name file" <br />
 example: localhost:3000/count <br />
 
-## List with the project and its description
--Count => Aplication for value count <br />
 
 
