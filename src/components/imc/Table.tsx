@@ -37,16 +37,8 @@ const Table = () => {
                 <td className="text-left p-4">Situation of severe obesity</td>
             </tr>
             </>
-            
-
-            
-
-
-
-
         )
     }
-
 
     return (
         <table className="w-full rouded-xl overflow-hidden">

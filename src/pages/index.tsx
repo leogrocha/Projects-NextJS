@@ -14,28 +14,30 @@ const Home = () => {
     <>
       <Title title="Projects in Next.JS" />
 
-      <div className="mt-10 flex ml-5">
-        <Button
-        
-          onClick={() => window.open('https://projects-next-js.vercel.app/count')}
-        >
-          <Card
-            image={
-              <Image
-                src={ImageCount}
-                alt="Count"
-                width={300}
-                height={300}
-              />
-            }
-            description="Application to value count"
-          />
-        </Button>
+      <div className="mt-10 flex ml-5 flex-wrap">
+        <div className="ml-3">
+          <Button
 
+            onClick={() => window.open('https://projects-next-js.vercel.app/count')}
+          >
+            <Card
+              image={
+                <Image
+                  src={ImageCount}
+                  alt="Count"
+                  width={300}
+                  height={300}
+                />
+              }
+              description="Application to value count"
+            />
+          </Button>
+
+        </div>
 
         <div className="ml-3">
           <Button
-          onClick={() => window.open('https://projects-next-js.vercel.app/chess')}
+            onClick={() => window.open('https://projects-next-js.vercel.app/chess')}
           >
             <Card
               image={
@@ -53,7 +55,7 @@ const Home = () => {
 
         <div className="ml-3">
           <Button
-          onClick={() => window.open('https://projects-next-js.vercel.app/random')}
+            onClick={() => window.open('https://projects-next-js.vercel.app/random')}
           >
             <Card
               image={
@@ -71,7 +73,7 @@ const Home = () => {
 
         <div className="ml-3">
           <Button
-          onClick={() => window.open('https://projects-next-js.vercel.app/sumTwoNumbers')}
+            onClick={() => window.open('https://projects-next-js.vercel.app/sumTwoNumbers')}
           >
             <Card
               image={
@@ -89,7 +91,7 @@ const Home = () => {
 
         <div className="ml-3">
           <Button
-          onClick={() => window.open('https://projects-next-js.vercel.app/countValueSpecif')}
+            onClick={() => window.open('https://projects-next-js.vercel.app/countValueSpecif')}
           >
             <Card
               image={
@@ -107,7 +109,7 @@ const Home = () => {
 
         <div className="ml-3">
           <Button
-          onClick={() => window.open('https://projects-next-js.vercel.app/imc')}
+            onClick={() => window.open('https://projects-next-js.vercel.app/imc')}
           >
             <Card
               image={
