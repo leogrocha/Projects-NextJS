@@ -7,6 +7,7 @@ import ImageRandom from '../public/random.png';
 import ImageSumTwoNumbers from '../public/sumTwoNumbers.png';
 import ImageCountValueSpecif from '../public/countValueSpecif.png';
 import ImageIMC from '../public/imc.png';
+import ImagetrucoCounter from '../public/trucoCounter.png';
 import Button from "../components/globals/Button";
 
 const Home = () => {
@@ -124,6 +125,27 @@ const Home = () => {
             />
           </Button>
         </div>
+
+        <div className="ml-3">
+          <Button
+            onClick={() => window.open('https://projects-next-js.vercel.app/trucoCounter')}
+          >
+            <Card
+              image={
+                <Image
+                  src={ImagetrucoCounter}
+                  alt="truco Counter"
+                  width={300}
+                  height={300}
+                />
+              }
+              description="Truco Counter"
+            />
+          </Button>
+        </div>      
+
+
+
       </div>
     </>
   )
