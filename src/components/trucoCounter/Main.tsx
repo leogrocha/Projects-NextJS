@@ -20,7 +20,7 @@ const Main = () => {
     return (
         <div className="bg-blue-300">
             <Container>
-                <Title title="Truco Counter" />
+                <Title title="Trick Counter" />
 
                 <div className="mt-5">
                     <Input
