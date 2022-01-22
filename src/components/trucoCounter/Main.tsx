@@ -40,6 +40,7 @@ const Main = () => {
                     <div>
                         <Button
                             className="bg-white w-full font-bold"
+                            onClick={() => setScoreParticipantOne(scoreParticipantOne + 1)}
                         >
                             <div>
                                 {participantOne}
@@ -71,6 +72,7 @@ const Main = () => {
                     <div className="ml-7">
                         <Button
                             className="bg-white w-full font-bold"
+                            onClick={() => setScoreParticipantTwo(scoreParticipantTwo + 1)}
                         >
                             <div>
                                 {participantTwo}
