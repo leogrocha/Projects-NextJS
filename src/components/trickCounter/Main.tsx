@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Button from "../globals/Button";
 import Container from "../globals/Container";
 import Input from "../globals/Input";
-import {IconRefresh} from '../Icons/Index';
+import { IconRefresh } from '../Icons/Index';
 import Title from "../globals/Title";
 
 const Main = () => {
@@ -50,10 +50,11 @@ const Main = () => {
                             </div>
                         </Button>
                         <div className="mt-2 flex justify-center items-center">
-                            <Button
-                                className="bg-red-400 font-bold"
-                                onClick={() => setScoreParticipantOne(scoreParticipantOne - 1)}
-                            >-</Button>
+                            {scoreParticipantOne > 0 ?
+                                <Button
+                                    className="bg-red-400 font-bold"
+                                    onClick={() => setScoreParticipantOne(scoreParticipantOne - 1)}
+                                >-</Button> : null}
                             <div className="ml-2">
                                 <Button
                                     className="bg-green-400 font-bold"
@@ -82,10 +83,11 @@ const Main = () => {
                             </div>
                         </Button>
                         <div className="mt-2 flex justify-center items-center">
-                            <Button
-                                className="bg-red-400 font-bold"
-                                onClick={() => setScoreParticipantTwo(scoreParticipantTwo - 1)}
-                            >-</Button>
+                            {scoreParticipantTwo > 0 ?
+                                <Button
+                                    className="bg-red-400 font-bold"
+                                    onClick={() => setScoreParticipantTwo(scoreParticipantTwo - 1)}
+                                >-</Button> : null}
                             <div className="ml-2">
                                 <Button
                                     className="bg-green-400 font-bold"
@@ -105,8 +107,8 @@ const Main = () => {
 
                 <div className="flex justify-center items-center mt-7">
                     <Button
-                    className="bg-orange-400"
-                    onClick={clear}
+                        className="bg-orange-400"
+                        onClick={clear}
                     >
                         {IconRefresh}
                     </Button>
